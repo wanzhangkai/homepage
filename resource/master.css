@@ -1,30 +1,3 @@
-#leimu {
-    left: 0;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    -webkit-transform: translate(-7px,7px);
-    transform: translate(-7px,7px);
-    -ms-transform: translate(-7px,7px);
-}
-
-.sidebar_wo {
-    position: fixed;
-    bottom: 0;
-    z-index: 1000;
-    line-height: 0;
-    cursor: url(/html/pointer.cur),pointer;
-}
-
-
-
-#lamu {
-    right: 0;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    -webkit-transform: translate(7px,7px);
-    transform: translate(7px,7px);
-    -ms-transform: translate(7px,7px);
-}
 
 @charset "UTF-8";
 html, body, div, span, object, iframe,
@@ -225,6 +198,9 @@ img.spv {
  * memo:
  *
  * ============================================== */
+
+
+
 .l-intro {
   background: #fff;
   width: 100%;
@@ -489,6 +465,38 @@ img.spv {
   width: 100%;
   height: 100%;
 }
+
+
+/*拉姆蕾姆宝宝元素*/
+.sidebar_wo {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    line-height: 0;
+    cursor: url(/html/pointer.cur),pointer;
+}
+#leimu {
+    left: 0;
+    /*-webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translate(-7px,7px);
+    transform: translate(-7px,7px);
+    -ms-transform: translate(-7px,7px);*/
+
+}
+#lamu {
+    right: 0;
+    /*-webkit-transition: all .3s ease-in-out;*/
+    /*transition: all .3s ease-in-out;*/
+    /*-webkit-transform: translate(7px,7px);*/
+    /*transform: translate(7px,7px);*/
+    /*-ms-transform: translate(7px,7px);*/
+}
+
+
+
+
+
 
 .l-first {
   position: fixed;
@@ -2938,4 +2946,4 @@ img.spv {
   background: rgba(0, 0, 0, 0.8);
 }
 
-/*Retina graphics! */
+/*Retina graphics! 
