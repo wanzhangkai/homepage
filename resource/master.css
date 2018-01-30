@@ -1,3 +1,31 @@
+#leimu {
+    left: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translate(-7px,7px);
+    transform: translate(-7px,7px);
+    -ms-transform: translate(-7px,7px);
+}
+
+.sidebar_wo {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    line-height: 0;
+    cursor: url(/html/pointer.cur),pointer;
+}
+
+
+
+#lamu {
+    right: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    -webkit-transform: translate(7px,7px);
+    transform: translate(7px,7px);
+    -ms-transform: translate(7px,7px);
+}
+
 @charset "UTF-8";
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
